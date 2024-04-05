@@ -1,0 +1,88 @@
+.home-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero {
+    background-image: url('https://cdn.pixabay.com/photo/2019/11/03/20/11/portrait-4599559_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .how-it-works,
+  .featured-dresses,
+  .testimonials,
+  .call-to-action {
+    padding: 50px 20px;
+  }
+  
+  .how-it-works .steps {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .step-number {
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .featured-dresses .dress-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .testimonials-slider {
+    /* Styles for your slider component */
+  }
+  
+  .btn-secondary {
+    background-color: #4B0082;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  @media (max-width: 768px) {
+    .how-it-works .steps {
+      flex-direction: column;
+    }
+  
+    .featured-dresses .dress-gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+  

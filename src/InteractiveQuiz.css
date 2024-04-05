@@ -1,0 +1,89 @@
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+    background-color: #f4f4f4;
+  }
+  
+  form {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #0d47a1;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0a3778;
+  }
+  /* InteractiveQuiz.css */
+.receipt-container {
+  background-color: #f9f9f9; /* Light grey background for the receipt */
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Spacing inside the container */
+  max-width: 600px; /* Maximum width of the container */
+  margin: 20px auto; /* Centering the container */
+  font-family: 'Arial', sans-serif; /* Modern, sans-serif font */
+}
+
+.receipt-container h2 {
+  color: #333; /* Dark grey color for the heading */
+  text-align: center; /* Center-align the heading */
+  margin-bottom: 16px; /* Space below the heading */
+}
+
+.receipt-container ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.receipt-container li {
+  background-color: #fff; /* White background for each list item */
+  border: 1px solid #ddd; /* Light grey border for each list item */
+  border-radius: 4px; /* Rounded corners for list items */
+  padding: 10px; /* Spacing inside each list item */
+  margin-bottom: 8px; /* Space between list items */
+  display: flex; /* Flex display to align key-value pairs nicely */
+  justify-content: space-between; /* Space between the key and value */
+  font-size: 16px; /* Slightly larger font size for readability */
+}
+
+.receipt-container li strong {
+  color: #555; /* Slightly darker color for the key */
+}

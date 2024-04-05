@@ -1,0 +1,25 @@
+.footer {
+    background-color: #282c34;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content h3 {
+    margin-top: 0;
+  }
+  
+  .footer-content p, .footer-content address {
+    margin: 10px 0;
+  }
+  
+  /* Optional: If you want to add more styles or responsiveness */
+  @media (max-width: 768px) {
+    .footer-content {
+      padding: 20px;
+    }
+  }
+  

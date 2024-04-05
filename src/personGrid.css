@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates a 3x3 grid */
+    gap: 20px; /* Provides space between cards for a cleaner look */
+    padding: 20px; /* Padding around the entire grid */
+    margin-top: 120px; /* Space for navbar, ensuring the grid starts below it */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background: #fff; /* Light background for the cards */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    overflow: hidden; /* Ensures everything fits neatly inside the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    height: 600px; /* Adjusted card height to accommodate larger image */
+    width: 100%; /* Cards take full width of their grid column */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card on hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increases shadow for a "lifting" effect */
+  }
+  
+  .card img {
+    width: 100%; /* Image takes full width of the card */
+    height: 550px; /* Increased height for images to avoid cropping */
+    object-fit: cover; /* Ensures the image covers the area well, may crop */
+  }
+  
+  .card h2, .card p {
+    text-align: center; /* Centers text for a neat appearance */
+    margin: 10px; /* Provides spacing around the text */
+  }
+  
